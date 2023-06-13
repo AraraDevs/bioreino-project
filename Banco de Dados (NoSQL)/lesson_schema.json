@@ -1,0 +1,10 @@
+{
+  "_id": "objectId",
+  "description": "string",
+  "videoUrl": "string",
+  "transcription": "string",
+  "title": "string",
+  "courseTitle": "string",
+  "courseUrl": "string",
+  "lessonUrl": "string"
+}

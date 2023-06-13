@@ -1,0 +1,8 @@
+{
+    "_id": "objectId",
+    "professor": "string",
+    "imageUrl": "string",
+    "plan": "string",
+    "category": "string",
+    "title": "string"
+}

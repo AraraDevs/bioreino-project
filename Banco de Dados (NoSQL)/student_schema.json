@@ -1,0 +1,20 @@
+{
+    "_id": "objectId",
+    "name": "string",
+    "email": "string",
+    "plan": "string",
+    "subscriptionDate": "date",
+    "password": "string",
+    "lastCourse": {
+      "imageUrl": "string",
+      "professor": "string",
+      "courseTitle": "string",
+      "lastLesson": {
+        "title": "string",
+        "description": "string"
+      }
+    },
+    "coursesProgress": {
+      "Rei da Floresta": ["string"]
+    }
+  }
