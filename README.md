@@ -10,8 +10,7 @@ via site e aplicativo, desta maneira pode-se utilizá-lo independemente do lugar
 ## Equipe - AraraDevs 🦜
 - **Caio Luppo Ribeiro**: Líder e desenvolvedor mobile, foi responsável por criar o aplicativo e as ilustrações da plataforma, como o logo e
 esquema de cores.
-- **Pedro Henrique Sampaio de Novaes**: Desenvolvedor Web do projeto, foi responsável por criar o aplicativo e as 
-ilustrações da plataforma, como o logo e esquema de cores.
+- **Pedro Henrique Sampaio de Novaes**: Desenvolvedor Web do projeto, foi responsável pelo desenvolvimento o site e do cluster do MongoDB.
 
 #### Tecnologias utilizadas 🐱‍💻
 - Flutter
