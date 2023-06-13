@@ -4,6 +4,7 @@ conteúdo para todas as idades, com aulas para vestibular e cursos diversos da �
 via site e aplicativo, desta maneira pode-se utilizá-lo independemente do lugar, contanto que possua acesso à um dispositivo com internet.
 
 > Link do vídeo em alta resolução: https://www.youtube.com/watch?v=TvD8WLLS12Q
+> Link do site: https://bioreino.vercel.app
 
 ## Equipe - AraraDevs 🦜
 - **Caio Luppo Ribeiro**: Líder e desenvolvedor mobile, foi responsável por criar o aplicativo e as ilustrações da plataforma, como o logo e
