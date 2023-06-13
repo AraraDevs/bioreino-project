@@ -10,8 +10,8 @@
       "professor": "string",
       "courseTitle": "string",
       "lastLesson": {
-        "title": "string",
-        "description": "string"
+        "lessonTitle": "string",
+        "lessonDescription": "string"
       }
     },
     "coursesProgress": {
