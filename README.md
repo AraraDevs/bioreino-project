@@ -6,7 +6,9 @@ via site e aplicativo, desta maneira pode-se utilizá-lo independemente do lugar
 > Link do vídeo em alta resolução: https://www.youtube.com/watch?v=TvD8WLLS12Q
 
 > Link do site: https://bioreino.vercel.app
-> 
+
+> Link de download do app: https://github.com/AraraDevs/bioreino-android/releases/tag/v1.0.0
+
 ## Equipe - AraraDevs 🦜
 - **Caio Luppo Ribeiro**: Líder e desenvolvedor mobile, foi responsável por criar o aplicativo e as ilustrações da plataforma, como o logo e
 esquema de cores, além do design.
