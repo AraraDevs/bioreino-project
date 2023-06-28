@@ -1,0 +1,22 @@
+.wrapper {
+  display: grid;
+  gap: 5.625rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.lastCourse .leopard {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 860px) {
+  .wrapper {
+    max-width: 31.25rem;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+  }
+
+  .lastCourse .leopard {
+    display: none;
+  }
+}

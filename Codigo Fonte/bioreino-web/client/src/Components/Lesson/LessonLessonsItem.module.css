@@ -1,0 +1,48 @@
+.listItem {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #000;
+}
+
+.listItem + .listItem {
+  margin-top: 20px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  font-family: var(--first-type);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.link:hover,
+.link:focus {
+  background: rgba(10, 10, 10, 0.35);
+}
+
+.link:global(.active) {
+  background: rgba(0, 255, 59, 0.08);
+}
+
+.infos {
+  margin-left: 20px;
+}
+
+.infos p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.infos span {
+  color: var(--contrast-1);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.clapperboard {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}

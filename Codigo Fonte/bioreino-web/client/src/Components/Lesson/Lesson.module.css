@@ -1,0 +1,22 @@
+.lessonWrapper {
+  background-color: #1b1d20;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.wrapper {
+  margin-left: 20px;
+  padding: 90px 20px 20px;
+}
+
+.footer {
+  flex: 1;
+  display: flex;
+}
+
+.footer > div {
+  margin-top: auto;
+  height: 130px;
+}

@@ -1,0 +1,31 @@
+.sectionTestimony {
+  background-image: var(--gradient-1);
+}
+
+.sectionTestimony p:global(.subtitle) {
+  margin-bottom: 5.625rem;
+}
+
+.sectionTestimony h2:global(.title) {
+  color: #fff;
+}
+
+.sectionTestimony p:global(.subtitle) {
+  color: #fff;
+}
+
+.testimonies {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(auto, 360px));
+  align-items: start;
+  justify-content: space-between;
+  gap: 2.5rem;
+}
+
+@media (max-width: 1110px) {
+  .testimonies {
+    grid-template-columns: minmax(auto, 360px);
+    justify-content: center;
+    gap: 5rem;
+  }
+}

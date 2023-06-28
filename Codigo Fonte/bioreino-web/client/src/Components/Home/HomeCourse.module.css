@@ -1,0 +1,47 @@
+.coursesItem {
+  max-width: 390px;
+  width: 100%;
+  border-radius: 1.25rem;
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+  box-shadow: var(--card-shadow);
+}
+
+.plan {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px 15px;
+  background: #fff;
+  border-bottom-left-radius: 1.25rem;
+  font-family: var(--first-type);
+  font-size: var(--font-7);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.background {
+  height: 6.25rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.description {
+  padding: 1.25rem;
+}
+
+.title {
+  font-family: var(--first-type);
+  font-size: var(--font-2);
+  font-weight: 500;
+  margin-bottom: 2px;
+  line-height: 1;
+}
+
+.teacher {
+  font-family: var(--first-type);
+  font-size: 1rem;
+  color: var(--contrast-1);
+  font-weight: 500;
+}

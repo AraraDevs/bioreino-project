@@ -1,0 +1,13 @@
+.footer {
+  padding: 1.875rem 1rem;
+  background: var(--bg-1);
+  color: #fff;
+  text-align: center;
+  font-family: var(--first-type);
+  font-size: var(--font-6);
+}
+
+.footer a {
+  color: currentColor;
+  text-decoration: underline;
+}

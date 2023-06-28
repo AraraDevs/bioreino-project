@@ -1,0 +1,143 @@
+.login {
+  width: 100%;
+  min-height: 100vh;
+  background: url('../../Assets/bg-login.jpg') no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+.wrapper {
+  width: 90vw;
+  max-width: 77.5rem;
+  min-height: 90vh;
+  max-height: 56.25rem;
+  background: #fff;
+  border-radius: 1.25rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  overflow: hidden;
+  position: relative;
+}
+
+.wrapper > section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionWelcome {
+  background: var(--bg-2);
+  padding: 2.5rem 3.125rem;
+}
+
+.sectionWelcome .welcome {
+  font-family: var(--first-type);
+  font-size: var(--font-8);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 4.5rem;
+  max-width: 28.125rem;
+  margin-bottom: 3.125rem;
+}
+
+.sectionWelcome svg {
+  width: 100%;
+  height: auto;
+}
+
+.sectionForm {
+  padding: 5.3125rem;
+}
+
+.loginTitle {
+  font-size: var(--font-1);
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 3.125rem;
+  margin-bottom: 1.875rem;
+}
+
+.form {
+  width: 100%;
+}
+
+.form button {
+  width: 100%;
+  margin-top: 2.5rem;
+  padding: 0.75rem !important;
+}
+
+.password > div {
+  margin-bottom: 0;
+}
+
+.sign {
+  font-family: var(--first-type);
+  font-size: var(--font-6);
+  color: #707070;
+  margin-top: 0.312rem;
+}
+
+.sign a {
+  font-family: var(--first-type);
+  color: #1812c5;
+  text-decoration: underline;
+}
+
+.btnHome {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--first-type);
+  letter-spacing: 1.2px;
+}
+
+.btnHome svg {
+  transform: rotate(90deg);
+}
+
+@media (max-width: 1110px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+    max-width: 25rem;
+    min-height: auto;
+    overflow: initial;
+  }
+
+  .wrapper .sectionWelcome {
+    display: none;
+  }
+
+  .wrapper .sectionForm {
+    padding: 1.5rem;
+  }
+
+  .loginTitle {
+    font-size: 1.875rem;
+    line-height: 1.625rem;
+  }
+
+  .btnHome {
+    top: 0.875rem;
+    left: 0.875rem;
+  }
+
+  .btnHome span {
+    display: none;
+  }
+
+  .btnHome svg path {
+    fill: #000;
+    stroke: #000;
+  }
+}

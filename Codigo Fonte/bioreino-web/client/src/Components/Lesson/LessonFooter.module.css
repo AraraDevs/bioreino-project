@@ -1,0 +1,84 @@
+.footer {
+  padding: 30px;
+  background: #0e1013;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  transition: margin 0.3s;
+}
+
+.wrapper.menuActive {
+  margin-left: 400px;
+}
+
+.lessonInfo {
+  max-width: 350px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.lessonInfo > * {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.title {
+  font-family: var(--first-type);
+  font-weight: 500;
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.prof {
+  display: block;
+  font-family: var(--first-type);
+  font-size: 16px;
+  color: var(--contrast-2);
+}
+
+.next {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--bg-1);
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  padding: 5px 25px 0;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+
+.next svg {
+  transform: rotate(-90deg);
+}
+
+@media (max-width: 800px) {
+  .title {
+    font-size: 26px;
+  }
+
+  .next {
+    align-self: center;
+    padding: 15px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 550px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .lessonInfo {
+    max-width: none;
+    text-align: center;
+  }
+}

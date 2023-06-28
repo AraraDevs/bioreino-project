@@ -1,0 +1,128 @@
+.cardLast {
+  border-radius: 1.25rem;
+  box-shadow: var(--card-shadow);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.background {
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 40%;
+}
+
+.cardLast .details {
+  padding: 1.875rem;
+  border-radius: 1.25rem;
+  background: #fff;
+  margin-top: -1.25rem;
+}
+
+.courseTitle,
+.teacher,
+.continue,
+.lessonTitle,
+.lessonDescription {
+  font-family: var(--first-type);
+  font-weight: 500;
+}
+
+.cardLast .courseTitle {
+  font-size: var(--font-10);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.cardLast .teacher {
+  font-size: var(--font-3);
+  color: var(--contrast-1);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.divisor {
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-top: 3px solid #ededed;
+  margin: 0.625rem 0 0.9375rem;
+}
+
+.cardLast .continue {
+  font-size: 2rem;
+}
+
+.cardLast .lesson {
+  margin-top: 0.875rem;
+  padding: 0.875rem 1.125rem;
+  box-shadow: var(--card-shadow);
+  border-radius: 1.25rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  column-gap: 0.75rem;
+}
+
+.lessonTitle {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-bottom: 0.25rem;
+}
+
+.cardLast .lessonDescription {
+  font-size: var(--font-3);
+  color: var(--contrast-1);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.info {
+  font-family: var(--first-type);
+  align-self: center;
+  text-align: center;
+}
+
+@media (max-width: 1150px) {
+  .cardLast .courseTitle {
+    font-size: 1.875rem;
+  }
+
+  .cardLast .continue {
+    font-size: 1.5rem;
+  }
+
+  .cardLast .lessonTitle {
+    font-size: 1.25rem;
+  }
+
+  .cardLast .lessonDescription {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .cardLast .details {
+    padding: 1rem;
+  }
+
+  .cardLast .courseTitle {
+    font-size: 1.5rem;
+  }
+
+  .cardLast .continue {
+    font-size: 1.25rem;
+  }
+
+  .cardLast .lesson {
+    display: block;
+  }
+
+  .cardLast .details svg {
+    display: none;
+  }
+}

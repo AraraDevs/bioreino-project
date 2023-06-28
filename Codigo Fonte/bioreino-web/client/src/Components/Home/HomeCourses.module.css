@@ -1,0 +1,26 @@
+.courses {
+  background-image: var(--gradient-1);
+  min-height: 26.125rem;
+}
+
+.coursesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  gap: 1.5625rem;
+}
+
+.courses h2:global(.title) {
+  color: #fff;
+}
+
+.courses p:global(.subtitle) {
+  color: #fff;
+}
+
+@media (max-width: 1110px) {
+  .coursesGrid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}

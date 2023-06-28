@@ -1,0 +1,30 @@
+.wrapper {
+  background: #eee;
+  padding: 1.25rem 1.875rem;
+  border-radius: 1.25rem;
+  font-family: var(--first-type);
+  margin-top: 2.8125rem;
+  margin-bottom: 2.8125rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.github {
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+@media (max-width: 760px) {
+  .wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .github {
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+}

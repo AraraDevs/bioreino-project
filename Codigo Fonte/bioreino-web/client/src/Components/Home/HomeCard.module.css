@@ -1,0 +1,55 @@
+.card {
+  max-width: 25rem;
+  box-shadow: var(--card-shadow);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.title {
+  font-size: 1.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.125rem;
+}
+
+.listItem > svg {
+  flex-shrink: 0;
+  margin-right: 0.625rem;
+}
+
+.listItem p {
+  font-family: var(--first-type);
+  font-size: var(--font-3);
+  color: var(--contrast-1);
+  line-height: 1;
+}
+
+.price {
+  font-size: 1.875rem;
+  text-align: center;
+  line-height: 2.687rem;
+  margin-top: 2rem;
+  margin-bottom: 1.25rem;
+}
+
+.card .signButton {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 760px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .price {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,154 @@
+.lesson {
+  max-width: 1000px;
+  margin: 0 auto 40px;
+}
+
+.lessonVideo {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.transcription .title {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 80px 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.transcription .title::before,
+.transcription .title::after {
+  content: '';
+  width: 39%;
+  height: 12px;
+  background: #0e1013;
+  border-radius: 6px;
+}
+
+.transcription p {
+  font-family: var(--first-type);
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  line-height: 1.6;
+  opacity: 0.75;
+}
+
+@media (max-width: 520px) {
+  .transcription p {
+    font-size: 16px;
+  }
+}
+
+.transcription .text {
+  max-height: 200px;
+  max-width: 850px;
+  margin: 0 auto;
+  padding-right: 5px;
+  hyphens: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.transcription .text.active {
+  max-height: 400px;
+  overflow: auto;
+}
+
+.transcription .text::after {
+  content: '';
+  background-image: linear-gradient(
+    to bottom,
+    rgba(27, 29, 32, 0.4),
+    rgba(27, 29, 32, 1) 90%
+  );
+  width: 100%;
+  height: 115px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.transcription .text.active::after {
+  content: none;
+}
+
+.transcription .text::-webkit-scrollbar {
+  width: 14px;
+}
+
+.transcription .text::-webkit-scrollbar-track {
+  background: #0e1013;
+  border-radius: 8px;
+}
+
+.transcription .text::-webkit-scrollbar-thumb {
+  background: var(--contrast-1);
+  border: 4px solid #0e1013;
+  border-radius: 8px;
+}
+
+.transcription .noText {
+  text-align: center;
+}
+
+.btnExpand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  margin: 20px auto 0;
+  padding: 8px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.arrow path {
+  fill: #fff;
+  stroke: #fff;
+}
+
+.text.active + .btnExpand .arrow {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 800px) {
+  .transcription .title {
+    flex-direction: column;
+    gap: initial;
+  }
+
+  .transcription .title::before,
+  .transcription .title::after {
+    width: 100%;
+  }
+
+  .transcription .title::before {
+    margin-bottom: 16px;
+  }
+
+  .transcription .title::after {
+    margin-top: 10px;
+  }
+}

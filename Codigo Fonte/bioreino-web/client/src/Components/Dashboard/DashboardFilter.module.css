@@ -1,0 +1,53 @@
+.wrapper {
+  margin-bottom: 3.25rem;
+}
+
+.filterName,
+.filter select {
+  font-family: var(--first-type);
+  font-size: var(--font-3);
+  font-weight: 300;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.filter select {
+  background: var(--contrast-2) url('../../Assets/arrow_down.svg') no-repeat
+    center right 0.75rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-transform: capitalize;
+  border: 1px solid transparent;
+  border-radius: 0.625rem;
+  padding: 0.5rem 3rem 0.5rem 0.5rem;
+  cursor: pointer;
+  box-shadow: var(--button-shadow);
+}
+
+.filter select:hover,
+.filter select:focus {
+  outline: none;
+  background-color: #fff;
+  border-color: var(--bg-2);
+  box-shadow: 0 0 0 2px rgb(14, 179, 1, 0.5);
+}
+
+.filter select option {
+  font-size: 1rem;
+}
+
+@media (max-width: 380px) {
+  .filter {
+    display: grid;
+  }
+
+  .filter svg {
+    display: none;
+  }
+}
